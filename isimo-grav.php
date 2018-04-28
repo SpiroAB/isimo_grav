@@ -123,6 +123,7 @@
 					'plugins' => $installed['plugins']->toArray(),
 				],
 				'updatable' => [
+					'core' => $gpm->grav->isUpdatable() ? $gpm->grav->getVersion() : null,
 					'themes' => $gpm->getUpdatableThemes(),
 					'plugins' => $gpm->getUpdatablePlugins(),
 				]
