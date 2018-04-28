@@ -78,7 +78,7 @@
 			$data = (object) [
 				'software' => 'Grav',
 				'version' => GRAV_VERSION,
-				'client' => 'isimo grav v0.0.1',
+				'client' => 'isimo grav v1.0.0',
 				'time' => time(),
 			];
 
