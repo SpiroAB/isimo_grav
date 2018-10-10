@@ -1,0 +1,6 @@
+{
+    "name": "SpiroAB/isimo_grav",
+    "description": "Isimo Client Grav plugin",
+    "type": "grav-plugin",
+    "require": {}
+}
