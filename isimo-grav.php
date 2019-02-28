@@ -83,6 +83,7 @@
 			];
 
 			$data->composer_lock = file_get_contents(GRAV_ROOT . "/composer.lock");
+			$data->composer_json = file_get_contents(GRAV_ROOT . "/composer.json");
 
 			$data->composer_outdated = NULL;
 			$data->composer_diagnose = NULL;
